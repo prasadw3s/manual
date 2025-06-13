@@ -19,8 +19,6 @@ public class Sample2 {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-
-		
 		
 	}
 }
