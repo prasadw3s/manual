@@ -10,6 +10,7 @@ public class sample {
 
 	public static void main(String[] args) throws Throwable  
 	{	
+		//new comments are follows
 		WebDriver driver= new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
