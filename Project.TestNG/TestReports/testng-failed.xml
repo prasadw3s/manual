@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [orange.suite]">
+  <test thread-count="5" name="EmployeeRegistartionTestCse(failed)">
+    <parameter name="euid" value="Prasad"/>
+    <parameter name="epwd" value="K"/>
+    <classes>
+      <class name="testcases.AdminLoginTestCaseInvalidInputs">
+        <methods>
+          <include name="Adminlogintest"/>
+          <include name="closeapp"/>
+          <include name="lanchApp"/>
+        </methods>
+      </class> <!-- testcases.AdminLoginTestCaseInvalidInputs -->
+    </classes>
+  </test> <!-- EmployeeRegistartionTestCse(failed) -->
+</suite> <!-- Failed suite [orange.suite] -->

@@ -1,0 +1,27 @@
+<suite name="orange.suite">
+<test name="login test case">
+<parameter name="uid" value="Admin"></parameter> 
+<parameter name="pwd" value="Qedge123!@#"></parameter>  
+<classes>
+<class name="testcases.AdminloginTestCase">
+</class>
+</classes>
+</test>
+<test name="logintestcase invaildinputs">
+<parameter name="uid" value="Abc"></parameter> 
+<parameter name="pwd" value="Xyz"></parameter>  
+<classes>
+<class name="testcases.AdminLoginTestCaseInvalidInputs">
+</class>
+</classes>
+</test>
+<test name="EmployeeRegistartionTestCse">
+<parameter name="fname" value="Prasad"></parameter> 
+<parameter name="lname" value="K"></parameter>   
+<classes>
+<class name="testcases.EmployeeRegistsrtionTest"> 
+</class>
+</classes>
+</test>
+
+</suite>
